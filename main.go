@@ -9,7 +9,8 @@ import (
 )
 
 func main() {
-	s, err := net.ResolveUDPAddr("udp4", "45.33.39.199:3000")
+	s, err := net.ResolveUDPAddr("udp4", "45.33.39.199:3333")
+	// s, err := net.ResolveUDPAddr("udp4", "127.0.0.1:3333")
 	if err != nil {
 		fmt.Println(err)
 		return
